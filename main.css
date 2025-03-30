@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: New Amsterdam, sans-serif;
+    background-image: url(./images/alterado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar{
+    background-color: #440505;
+}
+
+#cabecalho h1{
+    font-size: 30px;
+    color: white
+}
+
+#cabecalho .nav-link{
+    color: white;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #a87870;
+}
+
+.title_text{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.sobre_cont{
+    font-size: 20px;
+    text-indent: 20px;
+    color: white;
+}
+
+.imagem_principal{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tamanho_carrosel{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.musica{
+    text-align: center;
+    border-bottom: 20px;
+    color: white;
+}
+
+.rodape{
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .container{
+        max-width: 90%;
+    }
+    
+    .imagem_principal{
+        width: 300px;
+    }
+    
+    .tamanho_carrosel{
+        width: 300px;
+    }
+}
+
