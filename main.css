@@ -83,5 +83,9 @@ body{
     .tamanho_carrosel{
         width: 300px;
     }
+
+    .musica{
+        margin-top: 20px;
+    }
 }
 
